@@ -1,0 +1,97 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.center {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 900;
+  float: right;
+  width: 88%;
+}
+
+.header span {
+  font-family: "Poppins", sans-serif;
+}
+
+#live {
+  color: #bf5700;
+}
+
+#logo {
+  width: 400px;
+}
+
+table {
+  border-spacing: 40px;
+  width: 88%;
+  float: right;
+}
+
+td {
+  text-align: center;
+}
+
+.footer {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  width: 88%;
+  float: right;
+  margin: 1em;
+}
+
+.sidenav {
+  height: 100%;
+  width: 12%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #bf5700;
+  overflow-x: hidden;
+  padding-top: 1em;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sidenav a {
+  text-decoration: none;
+  font-size: 1.25vw;
+  color: white;
+  display: block;
+  margin: auto;
+  padding-bottom: 0.5em;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav i {
+  color: white;
+}
+
+#sidenav-logo {
+  width: 100%;
+}
+
+#home-link {
+  padding-bottom: 0;
+}
+
+#contact-div {
+  padding-bottom: 2em;
+}
+
+#creators {
+  font-size: 200px;
+  justify-content: space-between;
+}
