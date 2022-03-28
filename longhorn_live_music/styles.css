@@ -105,3 +105,67 @@ iframe {
   font-size: 200px;
   justify-content: space-between;
 }
+
+/* style elements for the austin music info page */
+.res-circle {
+  /* (A) PERCENTAGE WIDTH & BORDER RADIUS */
+  width: 20%;
+  border-radius: 50%;
+
+  /* (B) BACKGROUND COLOR */ 
+  background: #ffdcbc;
+ 
+  /* (C) NECESSARY TO POSITION TEXT BLOCK */
+  line-height: 0;
+  position: relative;
+}
+ 
+/* (D) MATCH HEIGHT */
+.res-circle::after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+ 
+/* (E) TEXT BLOCK */
+.circle-txt {
+  /* (E1) CENTER TEXT IN CIRCLE */
+  position: absolute;
+  bottom: 50%;
+  width: 100%;
+  text-align: center;
+ 
+  /* (E2) THE FONT - NOT REALLY IMPORTANT */
+  font-family: arial, sans-serif;
+  font-weight: bold;
+}
+
+#circle_1 {
+  position: absolute;
+  left: 400px;
+  top: 120px;
+}
+
+#circle_2 {
+  position: absolute;
+  left: 750px;
+  top: 320px;
+}
+
+#circle_3 {
+  position: absolute;
+  left: 400px;
+  top: 520px;
+}
+
+#circle_4 {
+  position: absolute;
+  left: 750px;
+  top: 720px;
+}
+
+#circle_5 {
+  position: absolute;
+  left: 400px;
+  top: 920px;
+}
