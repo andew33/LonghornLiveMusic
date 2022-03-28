@@ -79,6 +79,16 @@ td {
   color: white;
 }
 
+.snecenter {
+  width: 88%;
+  float: right;
+  margin: 1em;
+}
+
+iframe {
+  position:center;
+}
+
 #sidenav-logo {
   width: 100%;
 }
